@@ -1,0 +1,107 @@
+{
+    "monday": {
+        "date": "2025-03-16",
+        "plat": {
+            "name": "Poulet rôti",
+            "description": "Poulet rôti avec une sauce au vin blanc, accompagné de pommes de terre et légumes de saison.",
+            "price": 15.50,
+            "photo": "poulet_roti.jpg"
+        },
+        "dessert": {
+            "name": "Tarte aux pommes",
+            "description": "Tarte maison à base de pommes fraîches, avec une pâte croustillante.",
+            "price": 5.00,
+            "photo": "tarte_aux_pommes.jpg"
+        }
+    },
+    "tuesday": {
+        "date": "2025-03-17",
+        "plat": {
+            "name": "Lasagnes végétariennes",
+            "description": "Lasagnes à base de légumes frais, sauce tomate maison, et fromage gratiné.",
+            "price": 13.00,
+            "photo": "lasagnes_vegetariennes.jpg"
+        },
+        "dessert": {
+            "name": "Crème brûlée",
+            "description": "Crème brûlée maison avec une couche de sucre caramélisé.",
+            "price": 6.00,
+            "photo": "creme_brulee.jpg"
+        }
+    },
+    "wednesday": {
+        "date": "2025-03-18",
+        "plat": {
+            "name": "Saumon grillé",
+            "description": "Filet de saumon grillé servi avec une sauce béarnaise et des légumes vapeur.",
+            "price": 18.00,
+            "photo": "saumon_grille.jpg"
+        },
+        "dessert": {
+            "name": "Mousse au chocolat",
+            "description": "Mousse au chocolat fondante avec une touche de chantilly maison.",
+            "price": 5.50,
+            "photo": "mousse_au_chocolat.jpg"
+        }
+    },
+    "thursday": {
+        "date": "2025-03-19",
+        "plat": {
+            "name": "Côte de boeuf",
+            "description": "Côte de boeuf grillée, accompagnée de frites maison et salade verte.",
+            "price": 22.00,
+            "photo": "cote_de_boeuf.jpg"
+        },
+        "dessert": {
+            "name": "Tiramisu",
+            "description": "Tiramisu traditionnel à la mascarpone et au café.",
+            "price": 6.50,
+            "photo": "tiramisu.jpg"
+        }
+    },
+    "friday": {
+        "date": "2025-03-20",
+        "plat": {
+            "name": "Pizza Margherita",
+            "description": "Pizza avec sauce tomate, mozzarella et basilic frais.",
+            "price": 12.00,
+            "photo": "pizza_margherita.jpg"
+        },
+        "dessert": {
+            "name": "Panna Cotta",
+            "description": "Panna cotta crémeuse servie avec un coulis de fruits rouges.",
+            "price": 5.50,
+            "photo": "panna_cotta.jpg"
+        }
+    },
+    "saturday": {
+        "date": "2025-03-21",
+        "plat": {
+            "name": "Boeuf bourguignon",
+            "description": "Boeuf mijoté dans une sauce au vin rouge, servi avec des pâtes fraîches.",
+            "price": 20.00,
+            "photo": "boeuf_bourguignon.jpg"
+        },
+        "dessert": {
+            "name": "Soufflé au citron",
+            "description": "Soufflé léger au citron, légèrement sucré.",
+            "price": 7.00,
+            "photo": "souffle_au_citron.jpg"
+        }
+    },
+    "sunday": {
+        "date": "2025-03-22",
+        "plat": {
+            "name": "Rôti de veau",
+            "description": "Rôti de veau cuit lentement, servi avec une purée maison et légumes.",
+            "price": 21.50,
+            "photo": "roti_de_veau.jpg"
+        },
+        "dessert": {
+            "name": "Madeleine",
+            "description": "Madeleines fraîches et moelleuses, parfaites pour accompagner votre thé.",
+            "price": 4.00,
+            "photo": "madeleine.jpg"
+        }
+    }
+}

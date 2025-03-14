@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Homepage",
+        "link": "index.php"
+    },
+    {
+        "name": "Menu de la semaine",
+        "link": "index.php?page=menu"
+    }
+]
+ 
