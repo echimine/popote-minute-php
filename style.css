@@ -1,57 +1,88 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
+
 html, body {
     height: 100%;
+    background-color: #f4f4f4;
+    color: #333;
 }
+
 body {
     display: flex;
     flex-direction: column;
 }
 
+/* HEADER */
 header {
     width: 100%;
-    height: 100px;
-    background-color: aquamarine;
+    height: 80px;
+    background: linear-gradient(135deg, #007BFF, #00C6FF);
     display: flex;
-    align-items: center; /* Centre verticalement */
-    justify-content: space-around; /* Répartit les éléments */
-    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-header img{
-    width: 80px;
+header img {
+    width: 60px;
 }
 
 header ul {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
     list-style: none;
-    flex-grow: 1; /* Permet à la liste de prendre l'espace disponible */
+    gap: 20px;
 }
 
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* MAIN */
 main {
-    flex-grow: 1; 
-    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #ffffff;
 }
 
-
-footer{
+main img {
+    width: 500px;
+    height: 500px;
+}
+/* FOOTER */
+footer {
     width: 100%;
-    height: 100px;
-    background-color: blueviolet;
+    height: 80px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* TABLE */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin-top: 20px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -65,7 +96,7 @@ thead {
 }
 
 th, td {
-    padding: 12px;
+    padding: 14px;
     border: 1px solid #ddd;
 }
 
@@ -74,11 +105,18 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr:hover {
-    background-color: #f1f1f1;
+    background-color: #e3f2fd;
 }
 
-img {
+/* IMAGES */
+td img {
     max-width: 80px;
+    max-height: 80px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
