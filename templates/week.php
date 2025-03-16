@@ -1,7 +1,11 @@
 <?php
+// Code pour afficher le menu de la semaine
 
+//On récupère le contenu du fichier JSON
 $week = json_decode(file_get_contents('json/week.json'), true);
 // var_dump($week);
+
+// On crée le tableau HTML du menu de la semaine
 echo '<main>';
 echo "<h1>Menu de la semaine</h1>";
 echo "<table>";
@@ -20,6 +24,8 @@ echo "<thead>
 </thead>";
 echo "<tbody>";
 echo "<tbody>";
+
+// On récupère les bonnes datas pour chaque jour en parcourant le tableau
 foreach ($week as $day => $menu) {
     echo "<tr>";
     echo "<td>" . $menu['date'] . "</td>";
