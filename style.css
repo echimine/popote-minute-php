@@ -1,31 +1,38 @@
+/* Global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 html, body {
     height: 100%;
-    background-color: #f4f4f4;
+    background-color: #f0f2f5;
     color: #333;
+    scroll-behavior: smooth;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 /* HEADER */
 header {
     width: 100%;
     height: 80px;
-    background: linear-gradient(135deg, #007BFF, #00C6FF);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #5A189A, #4361EE);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
 }
 
 header img {
@@ -40,41 +47,56 @@ header ul {
 
 header ul li a {
     text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: 0.3s;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
 }
 
 header ul li a:hover {
-    color: #ffeb3b;
+    color: #FFD700;
 }
 
 /* MAIN */
 main {
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10%;
+    gap: 50px;
     flex-grow: 1;
-    padding: 40px;
+    padding: 50px 20px;
     background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
 }
 
 main img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
+
+main img:hover {
+    transform: scale(1.08);
+}
+
 /* FOOTER */
 footer {
     width: 100%;
-    height: 80px;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    height: 100px;
+    background: linear-gradient(135deg, #6A11CB, #2575FC);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 16px;
+    font-weight: 500;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -90,18 +112,18 @@ table {
 }
 
 thead {
-    background-color: #007BFF;
+    background-color: #5A189A;
     color: white;
     text-align: left;
 }
 
 th, td {
-    padding: 14px;
+    padding: 16px;
     border: 1px solid #ddd;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f7f7f7;
 }
 
 tbody tr:hover {
@@ -117,6 +139,6 @@ td img {
     transition: transform 0.3s ease-in-out;
 }
 
-img:hover {
-    transform: scale(1.05);
+td img:hover {
+    transform: scale(1.1);
 }

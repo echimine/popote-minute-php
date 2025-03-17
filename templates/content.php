@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Code pour afficher le contenu de la page dynamiquement
 
@@ -15,8 +15,8 @@ switch ($page) {
         break;
     case 'menu'; // Si ?page=menu
         include('templates/week.php'); // On affiche le menu de la semaine
-    break;
+        break;
     default: // Si la page demandée n'existe pas
-    include('templates/404.php'); // On affiche la page 404
-    break;
-} 
+        include('templates/404.php'); // On affiche la page 404
+        break;
+}
